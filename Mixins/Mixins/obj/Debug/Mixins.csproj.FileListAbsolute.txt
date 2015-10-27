@@ -1,0 +1,6 @@
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\bin\Debug\Mixins.exe.config
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\bin\Debug\Mixins.exe
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\bin\Debug\Mixins.pdb
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\obj\Debug\Mixins.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\obj\Debug\Mixins.exe
+C:\Users\Дмитрий\Documents\GitHub\Mixins\Mixins\obj\Debug\Mixins.pdb
