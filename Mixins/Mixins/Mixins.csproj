@@ -41,15 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Document.cs" />
+    <Compile Include="Document\Document.cs" />
     <Compile Include="DocumentPersistentItemMixin.cs" />
-    <Compile Include="DocumentPersistentStorage.cs" />
+    <Compile Include="PersistentStorage\DocumentPersistentStorage.cs" />
     <Compile Include="DocumentPersistentTargetTypeAttribute.cs" />
-    <Compile Include="IDocumentPersistentStorage.cs" />
+    <Compile Include="PersistentStorage\IDocumentPersistentStorage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecialDocument.cs" />
-    <Compile Include="SpecialDocumentPersistentStorage.cs" />
+    <Compile Include="Document\SpecialDocument.cs" />
+    <Compile Include="PersistentStorage\SpecialDocumentPersistentStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

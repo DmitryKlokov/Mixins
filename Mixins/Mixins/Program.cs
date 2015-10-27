@@ -1,4 +1,5 @@
 ﻿using System;
+using Mixins.Document;
 
 namespace Mixins
 {
@@ -8,8 +9,8 @@ namespace Mixins
         {
             try
             {
-                Document doc = new Document();
-                Document spDoc = new SpecialDocument();
+                Document.Document doc = new Document.Document();
+                Document.Document spDoc = new SpecialDocument();
 
                 doc.Store();
                 spDoc.Store();

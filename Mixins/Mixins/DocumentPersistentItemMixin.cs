@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Mixins.PersistentStorage;
 
 namespace Mixins
 {
-    static class DocumentPersistentItemMixin
+    static class DocumentPersistentItemMixin  // привязка обработчиков к оригинальным классам
     {
         private static Dictionary<Type, Func<IDocumentPersistentStorage>> _factories;
 
@@ -32,7 +33,7 @@ namespace Mixins
             }
         }
 
-        public static void Store(this Document doc)
+        public static void Store(this Document.Document doc)
         {
             GetPersistentItemFor(doc.GetType()).Store(doc);
         }

@@ -1,4 +1,4 @@
-﻿namespace Mixins
+﻿namespace Mixins.Document
 {
     class SpecialDocument : Document
     {
